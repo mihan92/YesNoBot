@@ -17,6 +17,6 @@ def check(message):
         else:
             bot.send_message(message.chat.id, 'Нет')
     else:
-        bot.send_message(message.chat.id, 'Ты не задал вопрос')
+        bot.send_message(message.chat.id, 'Нужно задать вопрос')
 
 bot.polling()
